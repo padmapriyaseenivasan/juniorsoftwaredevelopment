@@ -1,0 +1,14 @@
+let tamil=Number(prompt("enter your tamil mark"));
+let english=Number(prompt("enter your english mark"));
+let maths=Number(prompt("enter your maths mark"));
+let physics=Number(prompt("enter your physics mark"));
+let chemistry=Number(prompt("enter your chemistry mark"));
+let computerscience=Number(prompt("enter your computerscience mark"));
+let cutoff=maths+(physics+chemistry/(2));
+document.write("tamil markis:" +tamil+"<br>");
+document.write("english mark is:" +english +"<br>");
+document.write("maths mark is:" +maths +"<br>");
+document.write("physics mark is:" +physics+"<br>");
+document.write("chemistry mark is:" +chemistry+"<br>");
+document.write("computerscience markis:" +computerscience +"<br>");
+document.write("total cutoff is:" +cutoff+"<br>");

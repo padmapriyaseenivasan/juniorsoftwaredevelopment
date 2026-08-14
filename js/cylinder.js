@@ -1,0 +1,10 @@
+let n=3;
+let r=5;
+let h=8;
+let volume=n*r*r*h;
+let sa=2*3.14*r*(r+h);
+document.write("value of n is:"+n+"<br>");
+document.write("value of r is:"+r+"<br>");
+document.write("value of h is:"+h+"<br>");
+document.write("volume of cube is:"+volume+"<br>");
+document.write("surface area of cube is:"+sa+"<br>");
